@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { useUserContext } from '../UserContext';
+import { useUserContext } from '../../UserContext';
 import { storage } from '../../firebase';
 import { ref, getDownloadURL } from 'firebase/storage';
 import styles from '../Styles/roomContainerStyles.module.css'

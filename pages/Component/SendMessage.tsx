@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { useUserContext } from '../UserContext';
+import { useUserContext } from '../../UserContext';
 import styles from '../Styles/sendMessageStyle.module.css'
 
 interface SendMessageProps {

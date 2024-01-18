@@ -1,7 +1,7 @@
 import clientPromise from '../lib/mongodb'
 import { useRouter } from 'next/router'; // Add this import
 import type { InferGetServerSidePropsType, GetServerSideProps } from 'next';
-import { useUserContext } from './UserContext';
+import { useUserContext } from '../UserContext';
 import Welcome from './Welcome';
 type ConnectionStatus = {
   isConnected: boolean
