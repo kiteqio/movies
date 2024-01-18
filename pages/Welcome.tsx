@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useRouter } from 'next/router';
-import { useUserContext } from './UserContext';
 import styles from './Styles/welcomestyles.module.css';
+
 interface WelcomeProps {
   handleSuccessfulWelcome: (email: string) => void;
 }
