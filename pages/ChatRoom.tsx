@@ -70,8 +70,12 @@ export default function ChatRoom() {
 
   return (
     <div className={styles.chatRoomContainer}>
-      {/* Add your global styles here */}
-      {/* ... (other code remains the same) */}
+     <style jsx global>{`
+        body {
+          color: white;
+        }
+        
+      `}</style>
       <RoomContainer
         fetchMessageRoom={fetchMessageRoom}
         roomData={roomData}
