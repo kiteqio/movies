@@ -1,5 +1,5 @@
 // MyApp.js
-import { UserProvider } from './UserContext';
+import { UserProvider } from '../UserContext';
 
 function MyApp({ Component, pageProps }) {
   return (
