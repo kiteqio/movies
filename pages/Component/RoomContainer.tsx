@@ -42,7 +42,7 @@ const RoomContainer: React.FC<RoomContainerProps> = ({ fetchMessageRoom, roomDat
       </div>
       <div className={styles.MessagesContainer}>
 
-          {roomData.map((userMessage, index) => (
+      {roomData && roomData.map((userMessage, index) => (
             <div className={styles.UserContainer} key={index}>
                 <img
                 src={userMessage.imageUrl}

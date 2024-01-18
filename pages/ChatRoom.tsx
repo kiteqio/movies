@@ -23,7 +23,7 @@ export default function ChatRoom() {
   const { userEmail } = useUserContext();
   
   // Explicitly define the type for roomData
-  const [roomData, setRoomData] = useState<UserMessage[]>([]);
+  const [roomData, setRoomData] = useState<UserMessage[]>([])
 
   const { updateUserRoom, userRoom, userPicture } = useUserContext();
 
