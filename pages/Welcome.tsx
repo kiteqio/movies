@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import styles from './Styles/welcomestyles.module.css';
+import styles from './Styles/welcomeStyles.module.css';
 
 interface WelcomeProps {
   handleSuccessfulWelcome: (email: string) => void;
