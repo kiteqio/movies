@@ -1,0 +1,45 @@
+.RoomContainer {
+    background-color: #17181a;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.InputButton {
+    height: 41px;
+    width: 110px;
+    border: none;
+    background: none;
+    border: 2px solid gray;
+    margin: 15px;
+    border-radius: 22px;
+    font-size: 18px;
+    /* padding: 17px 30px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.MenuContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background: red;
+}
+
+.MessagesContainer {
+    position: fixed;
+    left: 22%;
+    width: 75%;
+    height: 81%;
+    background-color: #050023;
+    overflow: hidden;
+    overflow-y: scroll;
+}

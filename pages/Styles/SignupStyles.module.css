@@ -1,0 +1,68 @@
+.SignupContainer {
+    background-color: #17181a;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.SignupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputButton {
+    height: 41px;
+    width: 110px;
+    border: none;
+    background: none;
+    border: 2px solid gray;
+    margin: 15px;
+    border-radius: 22px;
+    font-size: 18px;
+    /* padding: 17px 30px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.SigngupInputs {
+    height: 35px;
+    color: #d1d1d1;
+    margin: 9px;
+    border-radius: 32px;
+    background: none;
+    border: 1px solid grey;
+    padding-left: 21px;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    width: max-content;
+}
+
+
+
+.file {
+
+    height: 88px;
+    width: 88px;
+    position: absolute;
+    opacity: 0;
+}
+.fileupload {
+
+}
+
+.profile {
+    height: 60px;
+    width: 60px;
+}

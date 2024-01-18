@@ -1,0 +1,39 @@
+.SendMessageContainer {
+    /* background-color: #17181a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 80%;
+    z-index: 2;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    justify-content: space-evenly;
+}
+
+
+.SendMessageInputAuto {
+    display: none;
+}
+
+.SendMessageInput {
+    border: none;
+    background: none;
+    background-color: #535963c7;
+    border-radius: 7px;
+    width: 80%;
+    height: 41px;
+    color: white;
+    text-align: left;
+    padding-left: 13px;
+}
+
+.SendMessageButton {
+    height: 40px;
+    width: 60px;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+}

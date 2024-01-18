@@ -1,0 +1,24 @@
+.chatRoomContainer {
+    background-color: #2868e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.InputButton {
+    height: 41px;
+    width: 110px;
+    border: none;
+    background: none;
+    border: 2px solid gray;
+    margin: 15px;
+    border-radius: 22px;
+    font-size: 18px;
+    /* padding: 17px 30px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
